@@ -1,7 +1,7 @@
 # EXERCÍCIOS BANCO DE DADOS  
 ## Descrição
 Atividades corespondentes as atividades realizadas em sala de aula. 
-
+## ETAPA 1:
  Crie uma tabela Produtos com os seguintes itens id_produto, nome, preço,
  estoque, perecível, marca, nacionalidade.
  Atribua a cada campo seu respectivo tipo;
@@ -44,6 +44,7 @@ VALUES('esponja de aco', 1.50, 22, 'N','Bombril','Brasileira');
 
 ![exer3](https://raw.githubusercontent.com/FabioCCamarg/Aula7BD/main/imagens/SelecionadoTodosProdutos.png)
 
+## ETAPA 2:
 /*Gere um relatório informando quantos produtos estão cadastrados*/
 
 SELECT COUNT(*) FROM Produtos;
@@ -100,3 +101,18 @@ perecíveis*/
 	FROM Produtos;	
 
  ![exer11](https://raw.githubusercontent.com/FabioCCamarg/Aula7BD/main/imagens/QtProdutoCadaNacionalidade.png)
+
+ ## ETAPA 3: 
+ Execute toda a atividade no WorkBench da Oracle;
+
+Comente o código esclarecendo o que está sendo feito no bloco de código;
+
+Crie um repositório remoto (GITHUB);
+
+Envie somente o script SQL para o repositório;
+
+Crie o ReadMe com base no modelo disponibilizado em aula;
+
+Tire um print da tela do WorkBench e insira no ReadMe;
+
+Envie na atividade somente o link do repositório criado.
